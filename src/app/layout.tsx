@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-gray-50 text-gray-800 ${geistSans.variable} ${geistMono.variable}`}
+        className={`bg-slate-50 dark:bg-slate-800 text-gray-900 dark:text-slate-50 ${geistSans.variable} ${geistMono.variable}`}
       >
         {/* Navbar at the top */}
         <Navbar />

@@ -11,14 +11,14 @@ const config: Config = {
     extend: {
       colors: {
         light: {
-          primary: "#5A67D8",  // Blue (example)
-          secondary: "#2D3748", // Dark Gray
-          accent: "#F6E05E",    // Yellow
+          primary: "#669bbc",  // light blue (bg)
+          secondary: "#000814", // gray dark
+          accent: "#926c15",    // Brown
         },
         dark: {
-          primary: "#1A202C",  // Dark Gray
-          secondary: "#CBD5E0", // Light Gray
-          accent: "#FBBF24",    // Amber
+          primary: "#001d3d",  // Blue (bg)
+          secondary: "#edede9", // grey text
+          accent: "#ffc300",    // gold
         },
       },
     },

@@ -15,9 +15,9 @@ export default async function BlogPost({params}:{params:Params}) {
 
   return (
     <>
-    <div className="container mx-auto px-6 py-12">
+    <div className="container mx-auto px-6 mt-12 py-12 ">
       <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
-      <p className="text-gray-500 mb-8">Published on {blog.publishDate}</p>
+      <p className=" mb-8">Published on {blog.publishDate}</p>
       <div className="prose prose-lg">
         <p>{blog.content}</p>
       </div>

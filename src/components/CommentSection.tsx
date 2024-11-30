@@ -28,13 +28,13 @@ const CommentSection = () => {
   };
 
   return (
-    <div className="p-6 bg-white shadow-md rounded-lg mt-8">
+    <div className="p-6 dark:bg-slate-950 bg-white shadow-xl rounded-lg mt-8  dark:text-white text-black">
       <h3 className="text-2xl font-semibold mb-4">Comments</h3>
 
       {/* Display existing comments */}
       <div className="space-y-4 mb-6">
         {comments.length === 0 ? (
-          <p className="text-gray-500">No comments yet. Be the first to comment!</p>
+          <p className="">No comments yet. Be the first to comment!</p>
         ) : (
           comments.map((comment, index) => (
             <div key={index} className="border-b pb-4">
@@ -65,7 +65,7 @@ const CommentSection = () => {
         />
         <button
           type="submit"
-          className="w-full py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700"
+          className="w-full py-3 dark:bg-dark-accent bg-light-accent dark:text-black font-bold text-xl text-white rounded-md hover:bg-indigo-700"
         >
           Post Comment
         </button>

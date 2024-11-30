@@ -20,7 +20,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-light-primary dark:bg-dark-primary text-light-secondary dark:text-dark-secondary shadow-md">
+    <nav className="bg-light-primary dark:bg-dark-primary text-light-secondary dark:text-dark-secondary w-full fixed z-10 shadow-md">
     <div className="container mx-auto flex items-center justify-between px-6 py-4">
       {/* Logo */}
       <div className="text-xl font-bold">

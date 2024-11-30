@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 
 const ThemeSwitcher = () => {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     // Check the initial theme from localStorage or default to light
