@@ -11,9 +11,9 @@ const config: Config = {
     extend: {
       colors: {
         light: {
-          primary: "#669bbc",  // light blue (bg)
+          primary: "#D4F27F",  // light blue (bg)
           secondary: "#000814", // gray dark
-          accent: "#926c15",    // Brown
+          accent: "#AD9707",    // Brown
         },
         dark: {
           primary: "#001d3d",  // Blue (bg)

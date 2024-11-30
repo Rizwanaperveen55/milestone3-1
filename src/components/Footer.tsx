@@ -77,7 +77,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="mt-8 border-t border-light-secondary dark:border-dark-secondary pt-6 text-center">
           <p className="text-light-secondary dark:text-dark-secondary">
-            &copy; {currentYear} MyBrand. All rights reserved.
+            &copy; {currentYear} Muhaamd Ahmed Noornai. All rights reserved.
           </p>
         </div>
       </div>

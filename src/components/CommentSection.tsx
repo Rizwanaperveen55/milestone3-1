@@ -47,21 +47,21 @@ const CommentSection = () => {
       </div>
 
       {/* Comment form */}
-      <h4 className="text-lg font-semibold mb-4">Leave a Comment</h4>
+      <h4 className="text-lg font-semibold  mb-4">Leave a Comment</h4>
       <form onSubmit={handleCommentSubmit} className="space-y-4">
         <input
           type="text"
           placeholder="Your Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="w-full p-3 border border-gray-300 rounded-md"
+          className="w-full p-3 border text-black border-gray-300 rounded-md"
         />
         <textarea
           placeholder="Your Comment"
           value={content}
           onChange={(e) => setContent(e.target.value)}
           rows={4}
-          className="w-full p-3 border border-gray-300 rounded-md"
+          className="w-full p-3 border text-black border-gray-300 rounded-md"
         />
         <button
           type="submit"
