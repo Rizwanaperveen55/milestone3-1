@@ -24,7 +24,7 @@ const ThemeSwitcher = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 bg-gray-800 text-white rounded-md flex items-center"
+      className="p-2 bg-gray-800 dark:bg-white text-white dark:text-gray-800 rounded-lg flex items-center"
     >
       {isDark ? <><FaSun className="mr-2" /> Light</> : <><FaMoon className="mr-2" /> Dark</>}
     </button>
