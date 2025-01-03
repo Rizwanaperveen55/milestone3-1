@@ -15,20 +15,14 @@ export default function Navbar() {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'Blog', href: '/' },
-    { label: 'Services', href: '/' },
-    { label: 'Contact', href: '/' },
+    
   ];
 
   return (
     <nav className="bg-light-primary dark:bg-dark-primary text-light-secondary dark:text-dark-secondary w-full fixed z-10 shadow-md">
     <div className="container mx-auto flex items-center justify-between px-6 py-4">
       {/* Logo */}
-      <div className="text-xl font-bold">
-        <Link href="/" className="text-light-accent dark:text-dark-accent">
-          MyBrand
-        </Link>
-      </div>
-
+      
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-6">
         {navItems.map((item) => (
