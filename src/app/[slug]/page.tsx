@@ -1,4 +1,4 @@
-"use client";
+
 import CommentSection from '@/components/CommentSection';
 import { blogs } from '@/utils/blog';
 type Params = Promise<{ slug: string }>
